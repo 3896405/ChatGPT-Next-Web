@@ -146,5 +146,9 @@ export function SideBar(props: { className?: string }) {
         onMouseDown={(e) => onDragMouseDown(e as any)}
       ></div>
     </div>
+    <div style="width:300px;margin:0 auto; padding:20px 0;">
+      <a target="_blank" href="https://www.beian.miit.gov.cn/" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+      <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">粤ICP备2023033754号-1</p></a>
+    </div>	
   );
 }
